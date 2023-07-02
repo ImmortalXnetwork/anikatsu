@@ -2,7 +2,7 @@
 $conn = mysqli_connect("localhost", 'root' , '', "anikatsu") or die("Connection fail");
 
 
-$websiteTitle = "AniKatsu"; // Website Name
+$websiteTitle = "Anijoy"; // Website Name
 $websiteUrl = "//{$_SERVER['SERVER_NAME']}";  // Website URL
 $websiteLogo = $websiteUrl . "/files/images/logo.png?v=2"; // Logo
 $contactEmail = "xyz@gmail.com"; // Contact Email
@@ -13,7 +13,7 @@ $version = "0.4";
 $donate = "#";
 
 // Socials 
-$telegram = "https://t.me/#"; // telegram
+$telegram = "https://t.me/hashira_association"; // telegram
 $discord = "https://discord.com/#"; // Discord
 $redit = "#"; // Reddit
 $twitter = "#"; // Twitter
